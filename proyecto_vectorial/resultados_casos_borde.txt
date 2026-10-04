@@ -1,0 +1,372 @@
+Generando casos de prueba...
+Generado 'data/test_0.dat' con N=0, modo=random
+Generado 'data/test_1.dat' con N=1, modo=random
+Generado 'data/test_7.dat' con N=7, modo=random
+Generado 'data/test_8.dat' con N=8, modo=random
+Generado 'data/test_15.dat' con N=15, modo=random
+Generado 'data/test_16.dat' con N=16, modo=random
+Generado 'data/test_1000.dat' con N=1000, modo=random
+Generado 'data/test_constant.dat' con N=1000, modo=constant
+Generado 'data/test_edge.dat' con N=100, modo=edge
+Compilando ambas versiones...
+===================================================
+Caso: test_0.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                0.000000       0.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.000000       0.000000              0  OK
+max              0.000000       0.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                0.000000       0.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              0.000000       0.000000              0  OK
+max              0.000000       0.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  sum     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  mean    : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  var     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  stddev  : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  min     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  max     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+===================================================
+Caso: test_1.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                1.000000       1.000000              0  OK
+sum            -83.262817     -83.262817    2.06425e-10  OK
+mean           -83.262817     -83.262817    2.06425e-10  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min            -83.262817     -83.262817    2.06425e-10  OK
+max            -83.262817     -83.262817    2.06425e-10  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                1.000000       1.000000              0  OK
+sum            -83.262817     -83.262817    2.06425e-10  OK
+mean           -83.262817     -83.262817    2.06425e-10  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min            -83.262817     -83.262817    2.06425e-10  OK
+max            -83.262817     -83.262817    2.06425e-10  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=1  vectorial=1  error_rel=0.000e+00  OK
+  sum     : escalar=-83.2628  vectorial=-83.2628  error_rel=0.000e+00  OK
+  mean    : escalar=-83.2628  vectorial=-83.2628  error_rel=0.000e+00  OK
+  var     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  stddev  : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  min     : escalar=-83.2628  vectorial=-83.2628  error_rel=0.000e+00  OK
+  max     : escalar=-83.2628  vectorial=-83.2628  error_rel=0.000e+00  OK
+===================================================
+Caso: test_7.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                7.000000       7.000000              0  OK
+sum            -89.824300     -89.824295    5.88833e-08  OK
+mean           -12.832043     -12.832042    9.33952e-08  OK
+var           1564.120401    1564.120360     2.5894e-08  OK
+stddev          39.548962      39.548962    1.17839e-08  OK
+min            -97.657639     -97.657639    5.09993e-10  OK
+max             41.484577      41.484577    5.07295e-10  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                7.000000       7.000000              0  OK
+sum            -89.824300     -89.824295    5.88833e-08  OK
+mean           -12.832043     -12.832042    9.33952e-08  OK
+var           1564.120401    1564.120360     2.5894e-08  OK
+stddev          39.548962      39.548962    1.17839e-08  OK
+min            -97.657639     -97.657639    5.09993e-10  OK
+max             41.484577      41.484577    5.07295e-10  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=7  vectorial=7  error_rel=0.000e+00  OK
+  sum     : escalar=-89.8243  vectorial=-89.8243  error_rel=0.000e+00  OK
+  mean    : escalar=-12.832  vectorial=-12.832  error_rel=0.000e+00  OK
+  var     : escalar=1564.12  vectorial=1564.12  error_rel=0.000e+00  OK
+  stddev  : escalar=39.549  vectorial=39.549  error_rel=0.000e+00  OK
+  min     : escalar=-97.6576  vectorial=-97.6576  error_rel=0.000e+00  OK
+  max     : escalar=41.4846  vectorial=41.4846  error_rel=0.000e+00  OK
+===================================================
+Caso: test_8.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                8.000000       8.000000              0  OK
+sum             10.153924      10.153931    7.07952e-07  OK
+mean             1.269240       1.269241    7.02043e-07  OK
+var           3547.781054    3547.781250    5.52896e-08  OK
+stddev          59.563253      59.563255    4.62385e-08  OK
+min            -86.235222     -86.235222     4.3146e-10  OK
+max             84.253860      84.253861    3.12949e-10  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n                8.000000       8.000000              0  OK
+sum             10.153924      10.153923    5.03751e-08  OK
+mean             1.269240       1.269240    4.64358e-08  OK
+var           3547.781054    3547.780760    8.28249e-08  OK
+stddev          59.563253      59.563251    1.75592e-08  OK
+min            -86.235222     -86.235222     4.3146e-10  OK
+max             84.253860      84.253861    3.12949e-10  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=8  vectorial=8  error_rel=0.000e+00  OK
+  sum     : escalar=10.1539  vectorial=10.1539  error_rel=7.583e-07  OK
+  mean    : escalar=1.26924  vectorial=1.26924  error_rel=7.485e-07  OK
+  var     : escalar=3547.78  vectorial=3547.78  error_rel=1.381e-07  OK
+  stddev  : escalar=59.5633  vectorial=59.5633  error_rel=6.380e-08  OK
+  min     : escalar=-86.2352  vectorial=-86.2352  error_rel=0.000e+00  OK
+  max     : escalar=84.2539  vectorial=84.2539  error_rel=0.000e+00  OK
+===================================================
+Caso: test_15.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n               15.000000      15.000000              0  OK
+sum             14.409383      14.409376    4.99464e-07  OK
+mean             0.960626       0.960625    5.21672e-07  OK
+var           3394.692868    3394.692870    7.11877e-10  OK
+stddev          58.263993      58.263992    1.01407e-08  OK
+min            -98.736328     -98.736328      2.532e-10  OK
+max             84.219376      84.219376    1.22912e-10  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n               15.000000      15.000000              0  OK
+sum             14.409383      14.409399    1.08978e-06  OK
+mean             0.960626       0.960627    1.09186e-06  OK
+var           3394.692868    3394.692870    7.11877e-10  OK
+stddev          58.263993      58.263992    1.01407e-08  OK
+min            -98.736328     -98.736328      2.532e-10  OK
+max             84.219376      84.219376    1.22912e-10  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=15  vectorial=15  error_rel=0.000e+00  OK
+  sum     : escalar=14.4094  vectorial=14.4094  error_rel=1.589e-06  OK
+  mean    : escalar=0.960625  vectorial=0.960627  error_rel=1.614e-06  OK
+  var     : escalar=3394.69  vectorial=3394.69  error_rel=0.000e+00  OK
+  stddev  : escalar=58.264  vectorial=58.264  error_rel=0.000e+00  OK
+  min     : escalar=-98.7363  vectorial=-98.7363  error_rel=0.000e+00  OK
+  max     : escalar=84.2194  vectorial=84.2194  error_rel=0.000e+00  OK
+===================================================
+Caso: test_16.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n               16.000000      16.000000              0  OK
+sum           -212.343068    -212.343063    2.41254e-08  OK
+mean           -13.271442     -13.271441    1.94161e-08  OK
+var           3137.665957    3137.666020    1.99961e-08  OK
+stddev          56.014873      56.014874     1.5292e-08  OK
+min            -98.703110     -98.703110    4.17524e-10  OK
+max             83.973930      83.973930    4.89596e-10  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n               16.000000      16.000000              0  OK
+sum           -212.343068    -212.343079    5.12244e-08  OK
+mean           -13.271442     -13.271442    4.83987e-08  OK
+var           3137.665957    3137.666020    1.99961e-08  OK
+stddev          56.014873      56.014874     1.5292e-08  OK
+min            -98.703110     -98.703110    4.17524e-10  OK
+max             83.973930      83.973930    4.89596e-10  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=16  vectorial=16  error_rel=0.000e+00  OK
+  sum     : escalar=-212.343  vectorial=-212.343  error_rel=7.535e-08  OK
+  mean    : escalar=-13.2714  vectorial=-13.2714  error_rel=6.781e-08  OK
+  var     : escalar=3137.67  vectorial=3137.67  error_rel=0.000e+00  OK
+  stddev  : escalar=56.0149  vectorial=56.0149  error_rel=0.000e+00  OK
+  min     : escalar=-98.7031  vectorial=-98.7031  error_rel=0.000e+00  OK
+  max     : escalar=83.9739  vectorial=83.9739  error_rel=0.000e+00  OK
+===================================================
+Caso: test_1000.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum          -4141.625455   -4141.624510    2.28218e-07  OK
+mean            -4.141625      -4.141624    2.42705e-07  OK
+var           3139.384700    3139.384030    2.13298e-07  OK
+stddev          56.030212      56.030205    1.35328e-07  OK
+min            -99.891273     -99.891273    1.46644e-11  OK
+max             99.966179      99.966179    5.95905e-11  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum          -4141.625455   -4141.625490    8.40413e-09  OK
+mean            -4.141625      -4.141625    1.33265e-08  OK
+var           3139.384700    3139.384770    2.24166e-08  OK
+stddev          56.030212      56.030212    3.12698e-10  OK
+min            -99.891273     -99.891273    1.46644e-11  OK
+max             99.966179      99.966179    5.95905e-11  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=1000  vectorial=1000  error_rel=0.000e+00  OK
+  sum     : escalar=-4141.62  vectorial=-4141.63  error_rel=2.366e-07  OK
+  mean    : escalar=-4.14162  vectorial=-4.14163  error_rel=2.294e-07  OK
+  var     : escalar=3139.38  vectorial=3139.38  error_rel=2.357e-07  OK
+  stddev  : escalar=56.0302  vectorial=56.0302  error_rel=1.356e-07  OK
+  min     : escalar=-99.8913  vectorial=-99.8913  error_rel=0.000e+00  OK
+  max     : escalar=99.9662  vectorial=99.9662  error_rel=0.000e+00  OK
+===================================================
+Caso: test_constant.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum           5000.000000    5000.000000              0  OK
+mean             5.000000       5.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              5.000000       5.000000              0  OK
+max              5.000000       5.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n             1000.000000    1000.000000              0  OK
+sum           5000.000000    5000.000000              0  OK
+mean             5.000000       5.000000              0  OK
+var              0.000000       0.000000              0  OK
+stddev           0.000000       0.000000              0  OK
+min              5.000000       5.000000              0  OK
+max              5.000000       5.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=1000  vectorial=1000  error_rel=0.000e+00  OK
+  sum     : escalar=5000  vectorial=5000  error_rel=0.000e+00  OK
+  mean    : escalar=5  vectorial=5  error_rel=0.000e+00  OK
+  var     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  stddev  : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  min     : escalar=5  vectorial=5  error_rel=0.000e+00  OK
+  max     : escalar=5  vectorial=5  error_rel=0.000e+00  OK
+===================================================
+Caso: test_edge.dat
+---------------------------------------------------
+[Escalar vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n              100.000000     100.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var       300000000000.280029299999953000.000000    1.56668e-07  OK
+stddev      547722.557505  547722.500000     1.0499e-07  OK
+min       -1000000.000000-1000000.000000              0  OK
+max        1000000.000000 1000000.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Vectorial vs referencia]
+campo          referencia       obtenido     error rel.  resultado
+n              100.000000     100.000000              0  OK
+sum              0.000000       0.000000              0  OK
+mean             0.000000       0.000000              0  OK
+var       300000000000.280029299999986000.000000    4.66676e-08  OK
+stddev      547722.557505  547722.562000    8.20594e-09  OK
+min       -1000000.000000-1000000.000000              0  OK
+max        1000000.000000 1000000.000000              0  OK
+
+RESULTADO GENERAL: PASA
+[Escalar vs Vectorial, entre sí]
+  n       : escalar=100  vectorial=100  error_rel=0.000e+00  OK
+  sum     : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  mean    : escalar=0  vectorial=0  error_rel=0.000e+00  OK
+  var     : escalar=3e+11  vectorial=3e+11  error_rel=1.100e-07  OK
+  stddev  : escalar=547722  vectorial=547723  error_rel=1.132e-07  OK
+  min     : escalar=-1e+06  vectorial=-1e+06  error_rel=0.000e+00  OK
+  max     : escalar=1e+06  vectorial=1e+06  error_rel=0.000e+00  OK
+===================================================
+RESUMEN
+  Casos donde AMBAS versiones pasan contra la referencia: 9 / 9
+  Casos donde escalar y vectorial coinciden ENTRE SÍ:      9 / 9
+===================================================
+
+
+
+GBD
+
+ana@ana-Inspiron-3501:~/Arqui_Proyecto_1/proyecto_vectorial$ gdb --args ./bin/norm_vector data/test_16.dat data/out16.dat 1
+GNU gdb (Ubuntu 15.1-1ubuntu1~24.04.1) 15.1
+Copyright (C) 2024 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./bin/norm_vector...
+(gdb) break stats_vector.asm:34
+Punto de interrupción 1 at 0x1958: file asm/vector/stats_vector.asm, line 34.
+(gdb) run
+Starting program: /home/ana/Arqui_Proyecto_1/proyecto_vectorial/bin/norm_vector data/test_16.dat data/out16.dat 1
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Enable debuginfod for this session? (y or [n]) y
+Debuginfod has been enabled.
+To make this setting permanent, add 'set debuginfod enabled on' to .gdbinit.
+Downloading separate debug info for system-supplied DSO at 0x7ffff7fc3000
+[Depuración de hilo usando libthread_db enabled]                                           
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+
+Breakpoint 1, sum_array.sum_vec_loop () at asm/vector/stats_vector.asm:34
+34	    vaddps  ymm0, ymm0, ymm1       ; acumula por carril
+(gdb) p $ymm0.v8_float
+$1 = {0, 0, 0, 0, 0, 0, 0, 0}
+(gdb) p $rdi
+$2 = 93824992257216
+(gdb) x/8fw $rdi
+0x55555555a4c0:	28.5411625	73.7817917	88.2070618	-92.1437378
+0x55555555a4d0:	-34.6728363	-88.9757538	-34.0483322	-87.7823792
+(gdb) break stats_vector.asm:340
+Punto de interrupción 2 at 0x555555555b87: file asm/vector/stats_vector.asm, line 341.
+(gdb) continue
+Continuando.
+
+Breakpoint 1, sum_array.sum_vec_loop () at asm/vector/stats_vector.asm:34
+34	    vaddps  ymm0, ymm0, ymm1       ; acumula por carril
+(gdb) p $rsi
+$3 = 16
+(gdb) x/8fw $rsi
+0x10:	No se puede acceder a la memoria en la dirección 0x10
+(gdb) x/8fw (char*)$rsi+32
+0x30:	No se puede acceder a la memoria en la dirección 0x30
+
