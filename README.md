@@ -3,7 +3,7 @@
 
 **Autor:** Ana Cristina Fallas Quirós
 **Curso:** Arquitectura de Computadores
-**Fecha de entrega:** 01/10/2026
+**Fecha de entrega:** 06/10/2026
 
 ---
 
@@ -66,7 +66,6 @@ kernel con el que se enlaza.
 ├── diagrama_arquitectura.drawio.pdf # Diagrama de arquitectura (entregable, 4 piezas de la sec. 3.a)
 ├── diagrama_arquitectura.drawio.html
 ├── Proyecto1_Informe_Ana_Fallas.pdf # Informe técnico completo
-├── README_pdf.pdf                   # Enunciado original del proyecto (provisto por el profesor)
 └── README.md                        # Este archivo
 ```
 
